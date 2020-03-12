@@ -1,0 +1,182 @@
+ 
+<!doctype html>
+<html>
+ <head>
+   <title>interests</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+     body {
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0;
+          }
+
+     /*Style the header */
+     .header {
+     padding: 80px;
+     text-align: center;
+     background: #708090;
+     color: white;
+             }
+
+    /* Increase the font size of the h1 element */
+    .header h1 {
+    font-size: 40px;
+               }
+
+    /* Style the top navigation bar */
+    .navbar {
+    overflow: hidden;
+    background-color: #708090;
+            }
+
+    /* Style the navigation bar links */
+    .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+              }
+   </style>
+
+      <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+   <style type="text/css">
+    #container {
+    overflow: hidden;
+    width: 800px;
+    height: 230px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top:150px;
+               }
+
+    #imgs {
+    display: block;
+    padding: 0;
+    width: 200%;
+          }
+
+    #imgs li {
+    padding-right: 10px;
+    display: inline-block;
+    *display:inline;
+             }
+
+    #imgs img {
+    width: 160px;
+    height: 120px;
+              }
+
+    .title {
+    display: block;
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: #ddd;
+           }
+   </style>
+
+
+</head>
+  <body>
+
+   <div class="header">
+    <h1>My Interests - Travel </h1>
+   </div> 
+
+   <div class="navbar">
+     <a href="HomepageNew.html">Home</a>
+     <a href="PersonalDetails2.html">Curriculum Vitae </a>
+   </div>
+
+    <div class="navbar">
+     <a href="Sports.html">Sports</a>
+ 
+  
+    </div>
+
+
+
+    <div class="container">
+      <span class="title">Travel</span>
+  <ul id="imgs">
+        <li><img src="https://www.glentravel.co.uk/wp-content/uploads/2018/09/phuket_the_ideal_destination_1.jpg" alt="" /></li>
+        <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg/1200px-Ski_Famille_-_Family_Ski_Holidays.jpg" alt="" /></li>
+        <li><img src="hhttps://i.redd.it/xouvdx8478e21.jpg" alt="" /></li>
+        <li><img src="https://www.ruralidays.com/viajar/wp-content/uploads/2016/10/Luxury-in-Marbella-and-Puerto-Banús.jpg" alt="" /></li>
+        <li><img src="https://i.ytimg.com/vi/cZPi8BSauy8/maxresdefault.jpg" alt="" /></li>
+        <li><img src="https://www.vantageairportgroup.com/wp-content/uploads/2017/01/lga-hero-1290x800.jpg
+  " alt="" /></li>
+        <li><img src="https://www.doolin.ie/wp-content/uploads/2016/12/cliffsofmoher3.jpg" alt="" /></li>
+  </ul>
+  <span class="title"></span> </div>
+  <div id="controler"> </div>
+       <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+       <script type="text/javascript" src="lib/ImageScroll.js"></script> 
+       <script type="text/javascript">
+
+  $('#imgs').imageScroll({
+    orientation:"left",
+    speed:200,
+    interval:1200,
+    hoverPause:true,
+    callback:function(){
+      var ordinal = $(this).find("img").first().attr("src");
+      <!-- console.log(ordinal); -->
+     
+    }
+  });
+
+   </script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+   </script>
+
+
+
+
+
+
+   </div>
+  </body>
+</html>
+
+
+    <h2 align="center" style="color:blue;">Travel</h2>
+
+      <h3 align="center">Spain</h3>
+          <p style="font-family:arial;font-size:150%;"> I have travelled from quite a young age<br>
+           We usually go to spain every summer as a family to the Marbella region.
+            This holiday is pretty chill and concists of laying around the pool or beach </p>
+      <br/>
+  
+      <h3 align="center">Skiing</h3>
+          <p style="font-family:arial;font-size:150%;">I started skiing with my family in 2013, I have gone twice a year since<br>
+	       We usually go to Austria at Christmas and France in February but ive also been to Switzerland and Colorado
+          </p>
+          <p style="font-family:arial;font-size:150%;">The food isnt great in Austria but the nightlife is very good. France is the opposite really.
+          </p>
+   
+   
+   
+
+
+     </div>
+
+
+  </body>

@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+ <head>
+  <title>interests</title>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+        body {
+              font-family: Arial, Helvetica, sans-serif;
+              margin: 0;
+             }
+
+             /*Style the header */
+             .header {
+              padding: 80px;
+              text-align: center;
+              background: #708090;
+              color: white;
+             }
+
+        /* Increase the font size of the h1 element */
+           .header h1 {
+           font-size: 40px;
+             }
+
+            /* Style the top navigation bar */
+            .navbar {
+            overflow: hidden;
+            background-color: #708090;
+            }
+
+            /* Style the navigation bar links */
+            .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            }
+</style>
+
+   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+   <style type="text/css">
+            #container {
+            overflow: hidden;
+            width: 800px;
+            height: 230px;
+            margin: 0 auto;
+            cursor: pointer;
+            margin-top:150px;
+            }
+
+            #imgs {
+            display: block;
+            padding: 0;
+            width: 200%;
+            }
+
+            #imgs li {
+            padding-right: 10px;
+            display: inline-block;
+           *display:inline;
+            }
+
+           #imgs img {
+           width: 160px;
+           height: 120px;
+            }
+
+           .title {
+           display: block;
+           width: 100%;
+           height: 38px;
+           line-height: 38px;
+           color: white;
+           font-weight: bold;
+           text-align: center;
+           background: #ddd;
+            }
+  </style>
+
+
+  </head>
+  <body>
+</html>  
+
+       <div class="header">
+        <h1>My Interests - Sports </h1>
+       </div> 
+
+       <div class="navbar">
+           <a href="HomepageNew.html">Home</a>
+           <a href="PersonalDetails2.html">Curriculum Vitae </a>
+       </div>
+
+       <div class="navbar">
+
+           <a href="travel.html">Travel</a>
+  
+       </div>
+
+
+
+       <div class="container">
+         <span class="title">Sports</span>
+       <ul id="imgs">
+         <li><img src="https://www.limerickleader.ie/resizer/750/563/true/imported_images/d5241c568063bf9e587645f07286bbfa.jpg--limerick_s_sean_finn_and_sean_flanagan_look_to_challenge_waterford_s_conor_gleeson_during_sunday_s_drawn_munster_minor_hurling_final.jpg
+         " alt="" /></li>
+             <li><img src="https://mattcoffelt.files.wordpress.com/2012/10/11.jpg
+         " alt="" /></li>
+             <li><img src="https://www4.pictures.zimbio.com/gi/Super+Rugby+Rd+11+Stomers+v+Sharks+RP7kMsZbloyl.jpg
+         " alt="" /></li>
+             <li><img src="https://assets.entrepreneur.com/content/3x2/822/20150608231057-surfing-water-waves.jpeg
+         " alt="" /></li>
+             <li><img src="https://i.ytimg.com/vi/CV0t36dyEBk/maxresdefault.jpg" alt="" /></li>
+             <li><img src="https://cdn-s3.si.com/s3fs-public/styles/marquee_large_2x/public/images/gear-guide-snowboarding-960.jpg?itok=o5ZYrst0
+         " alt="" /></li>
+             <li><img src="https://cdn.vox-cdn.com/thumbor/uwdmgNefZjO7n2DAszZ69OY77eg=/0x0:3712x3214/1200x800/filters:focal(1481x978:2073x1570)/cdn.vox-cdn.com/uploads/chorus_image/image/56638321/usa_today_10025326.0.jpg
+         " alt="" /></li>
+              </ul>
+                   <span class="title"></span> </div>
+         <div id="controler"> </div>
+                   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> 
+                   <script type="text/javascript" src="lib/ImageScroll.js"></script> 
+                   <script type="text/javascript">
+
+  $('#imgs').imageScroll({
+    orientation:"left",
+    speed:200,
+    interval:1200,
+    hoverPause:true,
+    callback:function(){
+      var ordinal = $(this).find("img").first().attr("src");
+      <!-- console.log(ordinal); -->
+      
+    }
+  });
+
+  </script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+ 
+
+
+
+
+
+
+
+    <body>
+    <h2 align="center" style="color:blue;">Sports</h2>
+    <h3 align="center">Rugby</h3>
+       <p style="font-family:arial;font-size:150%;">Ive played many Sports, my favorite was rugby.<br>
+       I have played rugby from the age of 10.<br>Ive played with Estuary Rugby club and Newcastle-West rugby club<br>
+	   I started taking rugby seriously when I started secondary school and was playing junior cup<br> </p>
+    
+  
+    <h3 align="center">Football</h3>
+       <p style= "font-family:arial;font-size:150%;"> Ive been playing football since I was young enough to kick a ball<br>
+	   I play with my local club st senans and also played with my county limerick from u14 to minor but had to give up due to school</p>
+	   
+	<h3 align="center">Soccer</h3>
+       <p style= "font-family:arial;font-size:150%;"> I have played soccer since I was 5<br>
+	   I have 
+	   I play with my local club st senans and also played with my county limerick from u14 to minor but had to give up due to school</p>
+	   
+	  
+ 
+
+    </div>
+
+
+    </body>
